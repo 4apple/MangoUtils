@@ -84,7 +84,6 @@ class MainActivity : AppCompatActivity() {
                 var intent : Intent = Intent()
                 intent.action = Intent.ACTION_VIEW
                 intent.data = Uri.parse("market://details?id=" + mContext!!.packageName)
-                //intent.data = Uri.parse("market://details?id=" + "com.tclhz.gallery")
                 startActivity(intent)
             } catch (e: Exception) {
                 Log.d("mango","Error:" + e.toString())
