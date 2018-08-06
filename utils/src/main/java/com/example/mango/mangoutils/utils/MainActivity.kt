@@ -75,8 +75,8 @@ class MainActivity : AppCompatActivity() {
         if(this.mContext != null) {
             try {
                 var intent : Intent = Intent()
-                intent.setAction(Intent.ACTION_VIEW)
-                intent.setData(Uri.parse("market://details?id=" + mContext!!.packageName))
+                intent.action = Intent.ACTION_VIEW
+                intent.data = Uri.parse("market://details?id=" + mContext!!.packageName)
                 startActivity(intent)
             } catch (e: Exception) {
                 Log.d("mango","Error:" + e.toString())
