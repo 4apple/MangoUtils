@@ -1,0 +1,3 @@
+/local/sourcecode3/demo/refdemo/MangoUtils/utils/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/local/sourcecode3/demo/refdemo/MangoUtils/utils/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/local/sourcecode3/demo/refdemo/MangoUtils/utils/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/native-lib.dir

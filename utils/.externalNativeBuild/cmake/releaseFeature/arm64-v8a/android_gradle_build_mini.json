@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/local/sourcecode3/demo/refdemo/MangoUtils/utils/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/mango/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /local/sourcecode3/demo/refdemo/MangoUtils/utils/.externalNativeBuild/cmake/releaseFeature/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/mango/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /local/sourcecode3/demo/refdemo/MangoUtils/utils/.externalNativeBuild/cmake/releaseFeature/arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "/local/sourcecode3/demo/refdemo/MangoUtils/utils/build/intermediates/cmake/feature/release/obj/arm64-v8a/libnative-lib.so"
+    }
+  }
+}

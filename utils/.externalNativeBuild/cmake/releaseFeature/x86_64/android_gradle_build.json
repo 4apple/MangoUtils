@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/local/sourcecode3/demo/refdemo/MangoUtils/utils/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/mango/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /local/sourcecode3/demo/refdemo/MangoUtils/utils/.externalNativeBuild/cmake/releaseFeature/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/mango/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /local/sourcecode3/demo/refdemo/MangoUtils/utils/.externalNativeBuild/cmake/releaseFeature/x86_64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/mango/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/mango/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/mango/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/mango/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/mango/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/mango/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/local/sourcecode3/demo/refdemo/MangoUtils/utils/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/local/sourcecode3/demo/refdemo/MangoUtils/utils/.externalNativeBuild/cmake/releaseFeature/x86_64"
+				}
+			],
+			"output" : "/local/sourcecode3/demo/refdemo/MangoUtils/utils/build/intermediates/cmake/feature/release/obj/x86_64/libnative-lib.so",
+			"toolchain" : "15241451046540731005"
+		}
+	},
+	"toolchains" : 
+	{
+		"15241451046540731005" : 
+		{
+			"cCompilerExecutable" : "/Users/mango/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/mango/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
