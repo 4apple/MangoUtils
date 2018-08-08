@@ -1,5 +1,6 @@
 package com.example.mango.mangoutils.utils
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.content.pm.ApplicationInfo
@@ -57,6 +58,28 @@ class MainActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
+
+    /**
+     **2018-7-4
+     **Use runOnUiThread() method to execute the UI action from a Non-UI thread.
+     **/
+    /**
+    ############################# Java Version ###################################
+    private class ReceiverThread extends Thread
+    {
+        @Override
+        public void run() {
+            Activity_name.this.runOnUiThread(new Runnable () {
+
+                @Override
+                public void run() {
+                    mAdapter.notifyDataSetChanged();
+                }
+            });
+        }
+    }
+    */
+
 
     /**
     ############################# Java Version ###################################
